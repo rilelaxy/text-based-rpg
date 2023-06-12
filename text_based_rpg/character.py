@@ -1,12 +1,14 @@
 """ Our Character Class
 """
 
+import random
 import creator
 
 class Character:
+    
     # constructor
     def __init__(self, name):
-        self.name = name
+        self.name = input("Enter name: ")
         self.strength = creator.choose_stats()
         self.stamina = creator.choose_stats()
         self.talent = creator.choose_stats()
@@ -24,6 +26,3 @@ class Character:
         repr += f"AM: {self.attack_modifier}"
         return repr
     
-if __name__ == "__main__":
-    hero = Character("Player")
-    print(hero)

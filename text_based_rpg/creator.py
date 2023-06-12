@@ -16,6 +16,3 @@ def get_modifier(stat: int) -> int:
     modifier = 0
     return stat + modifier
 
-
-if __name__ == "__main__":
-    print("Hello, I am your creator.")
