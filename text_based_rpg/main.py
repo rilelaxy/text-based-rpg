@@ -7,7 +7,7 @@ from world import world_map
 
 if __name__ == "__main__":
     print("Hello, I am your creator.")
-    print("These are the stats I have given you.")
+    print("Enter your name to see the stats I have given you.")
 
     hero = Character("Player")
     print(hero)
@@ -20,8 +20,8 @@ if __name__ == "__main__":
 print(character_artform)
 
 if __name__ == "__main__":
+
     current_location = "Statue of Creation"
-    print("You have been created, have fun in the city of Artstoria!")
     print("You are currently at:", current_location)
 
     while True: 
